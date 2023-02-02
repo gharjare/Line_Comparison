@@ -35,6 +35,15 @@
             {
                 Console.WriteLine("line 1 and line 2 are equal");
             }
+            if (lengthOfLine1.Equals(lengthOfLine2))
+            {
+                Console.WriteLine("Lines are equal");
+            }
+            else
+            {
+                Console.WriteLine("Lines are not equal");
+            }
+
         }
     }
 }
